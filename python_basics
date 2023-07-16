@@ -1,0 +1,40 @@
+#string operations
+name = "drishti pandita"
+print(name[0:9])
+
+# output = drishti p
+
+#how to use every second character
+name = "drishti pandita"
+print(name[::2])
+
+#output = dihipnia
+
+#how to print every third character
+name = "drishti pandita"
+print(name[::4])
+
+#output = dhpi
+
+#how to return every second value upto index 5
+name = "drishti pandita"
+print(name[0:5:2])
+#output = dih
+
+#find length
+name = "drishti pandita"
+len(name)
+output = 15
+
+#concatenate
+name = "drishti pandita"
+string = name + " is my name."
+print(string)
+output = drishti pandita is my name.
+
+#replace
+a = "i love myself a lot"
+b = a.replace("love", "really love")
+print(b)
+#output = i really love myself a lot
+
